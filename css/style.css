@@ -1,142 +1,174 @@
 /* ---- reset ---- */
 
 body {
-  
-  
-    margin: 0;
-    font:normal 75% Arial, Helvetica, sans-serif;
-  }
-  
-  canvas {
-    display: block;
-    vertical-align: bottom;
-  }
 
-  /**GLOBO TERRESTE**/
-  .universo{
-    border-radius: 5px;
-    background-size: cover;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    text-align: center;
-    position: relative;
+
+margin: 0;
+font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+#apresentacao{
+position: relative;
+padding-top: 180px;
+margin-bottom: 0x;
+}
+
+/**GLOBO TERRESTE**/
+.universo{
+border-radius: 5px;
+background-size: cover;
+height: auto;
+
+padding-bottom: 50px;
+text-align: center;
+position: relative;
 }
 .globo{
-    position: relative;
-    margin: 0 auto;
-    width: 300px;
-    height: 300px;
-    background-color: black;
-    border-radius: 50%;
-    background-image: url('../img/mundo.jpg');
-    background-size: cover;
-    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #3a96;
-    animation: rotate 35s linear infinite;
+
+margin: 0 auto;
+width: 300px;
+height: 300px;
+background-color: black;
+border-radius: 50%;
+background-image: url('../img/mundo.jpg');
+background-size: cover;
+box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #3a96;
+animation: rotate 35s linear infinite;
 }
 
 @keyframes rotate{
-    to{
-        background-position: 100%;
-    }
+to{
+background-position: 100%;
 }
-  
-  /* ---- particles.js container ---- */
-  
-  #particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: teal;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  /* ---- stats.js ---- */
-  
-  .count-particles{
-    background: #000022;
-    position: absolute;
-    top: 48px;
-    left: 0;
-    width: 80px;
-    color: #13E8E9;
-    font-size: .8em;
-    text-align: left;
-    text-indent: 4px;
-    line-height: 14px;
-    padding-bottom: 2px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-  
-  .js-count-particles{
-    font-size: 1.1em;
-  }
-  
-  #stats,
-  .count-particles{
-    -webkit-user-select: none;
-  }
-  
-  #stats{
-    border-radius: 3px 3px 0 0;
-    overflow: hidden;
-  }
-  
-  .count-particles{
-    border-radius: 0 0 3px 3px;
-  }
-  
-  .navbar a{
-    color: #fff !important;
-  }
-  
-  .pg{
-    height: auto;
-    padding-bottom: 20px;
-    
-    position: relative;
-    margin-top: 33px !important;
-    padding-top: 50px !important;
-   /* background-color: rgba(123, 123, 123, 0.5);*/
-    background-color:#fff;
-    border-radius:5px;
-  }
-  .perfil{
-     margin:10px;
-    margin-right: 5px;  
-   
-  }
-  .perfil h1,h3,h4{
-    
-    margin-left: 5px;
-    margin:10px;
-    color:#000;
-  }
-  
-  
-  .photo{
-    margin: 10px;
-    text-align: center;
-    background-color: yellow;
-  }
-  
-  /***MEUS PROJETOS**/
-  .projetos{
-    background-color: darkolivegreen;
-    height: 800px;
-  }
-  
-  .projetos .card{
-    padding-top: 200px;
-    height: 100px;
-    margin-top: 200px;
-  }
-  
-  .teste{
-      background-color: blue;
-    }
-  
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: teal;
+background-image: url("");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 50%;
+
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+background: #000022;
+position: absolute;
+top: 48px;
+left: 0;
+width: 80px;
+color: #13E8E9;
+font-size: .8em;
+text-align: left;
+text-indent: 4px;
+line-height: 14px;
+padding-bottom: 2px;
+font-family: Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+
+.js-count-particles{
+font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+-webkit-user-select: none;
+}
+
+#stats{
+border-radius: 3px 3px 0 0;
+overflow: hidden;
+}
+
+.count-particles{
+border-radius: 0 0 3px 3px;
+}
+/**NAVBAR **/
+.navbar{
+/*background-color: #212529;*/
+background-color: rgb(37, 45, 49, 0.2);
+border: none;
+
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar a{
+color: #fff !important;
+}
+
+.pg{
+height: auto;
+padding-bottom: 20px;    
+position: relative;
+margin-top: 33px !important;
+padding-top: 50px !important;
+/* background-color: rgba(123, 123, 123, 0.5);*/
+background-color:#fff;
+border-radius:5px;
+}
+.perfil{
+margin:10px;
+margin-right: 5px;  
+
+}
+.perfil h1,h3,h4{
+
+margin-left: 5px;
+margin:10px;
+color:#000;
+}
+
+
+.photo{
+margin: 10px;
+text-align: center;
+background-color: yellow;
+}
+
+/***MEUS PROJETOS**/
+
+
+#projetos{   
+background-color: #e2730c;
+height: 900px;
+margin-top: 95px;
+}
+
+#projetos2{   
+background-color: #0cc2e2;
+height: 900px;
+
+}
+
+#projetos3{   
+background-color: #e20c9b;
+height: 900px;
+
+}
+
+
+/**footer**/
+footer {
+bottom: 0;
+margin-top: 0px;
+position: relative;
+text-align: center;
+padding: 3px;
+background-color:#000;
+color: white;
+}
+
+footer  a {
+    color:blue;
+    font-weight: 500;
+    text-decoration: none;
+}

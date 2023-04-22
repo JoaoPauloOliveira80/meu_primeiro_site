@@ -5,7 +5,7 @@ console.log('funcionando')
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 95,
+      "value": 150,
       "density": {
         "enable": true,
         "value_area": 800
