@@ -98,8 +98,13 @@ border-radius: 0 0 3px 3px;
 /*background-color: #212529;*/
 background-color: rgb(37, 45, 49, 0.2);
 border: none;
-
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar-nav {
+    text-transform: uppercase;
+    padding-right: 500px;
+    text-align: center;
+    display: inline-block;
 }
 .navbar a{
 color: #fff !important;
@@ -137,7 +142,8 @@ background-color: yellow;
 /***MEUS PROJETOS**/
 
 
-#projetos{   
+#projetos{  
+padding-top: 100px; 
 background-color: #e2730c;
 height: 900px;
 margin-top: 95px;
@@ -168,7 +174,7 @@ color: white;
 }
 
 footer  a {
-    color:blue;
-    font-weight: 500;
-    text-decoration: none;
+color:blue;
+font-weight: 500;
+text-decoration: none;
 }
